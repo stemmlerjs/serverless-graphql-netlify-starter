@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
+    "bundle": "cpx src/**/* functions/bundle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +26,8 @@
   "homepage": "https://github.com/stemmlerjs/serverless-graphql-netlify-starter#readme",
   "dependencies": {
     "apollo-server": "^2.10.1",
-    "apollo-server-lambda": "^2.10.1"
+    "apollo-server-lambda": "^2.10.1",
+    "cpx": "^1.5.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

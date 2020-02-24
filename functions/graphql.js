@@ -1,5 +1,5 @@
 
-const { createLambdaServer } = require('../src/server')
+const { createLambdaServer } = require('./bundle/server')
 
 const server = createLambdaServer();
 

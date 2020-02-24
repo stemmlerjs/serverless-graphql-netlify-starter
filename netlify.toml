@@ -1,3 +1,3 @@
 [build]
-  command = "echo 'Hi! We are building this site :p'"
+  command = "npm run bundle"
   functions = "functions"
