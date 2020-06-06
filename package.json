@@ -26,7 +26,7 @@
   "homepage": "https://github.com/stemmlerjs/serverless-graphql-netlify-starter#readme",
   "dependencies": {
     "apollo-server": "^2.10.1",
-    "apollo-server-lambda": "^2.10.1",
+    "apollo-server-lambda": "^2.14.2",
     "cpx": "^1.5.0"
   },
   "devDependencies": {
